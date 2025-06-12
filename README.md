@@ -1,4 +1,4 @@
-Carla VR Unity build
+## Carla VR Streaming in Unity
 
 - CarlaVRController.cs:
   - Handles reading websocket stream at ```ws://\<IP address of machine running Carla API\>:<port default is 8765```
