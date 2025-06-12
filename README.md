@@ -2,7 +2,7 @@
 
 - CarlaVRController.cs:
   - Handles reading websocket stream at ```ws://\<IP address of machine running Carla API\>:<port (default is 8765)>```
-  - The port to listen on is set in the CarlaPythonAPI repo in the script  ```manual_control_streaming.py```
+  - The port to listen on is set in the [CarlaVRStreaming](https://github.com/skyguy-netizen/CarlaVRStreaming/tree/main) repo in the script  ```manual_control_streaming.py```
   - Make sure to accordingly change the IP address for the machine as well as the port
  
 - Build project and run on Meta Quest to connect to the websocket defined in the code
